@@ -47,7 +47,7 @@ export default function Quranpage() {
             .then((data) => {
                 // جلب روابط الصوت لكل آية
                 setAyahs(
-                    data.data.ayahs.map((a: any) => ({
+                    data.data.ayahs.map((a: { numberInSurah: number; text: string; audio: string }) => ({
                         number: a.numberInSurah,
                         text: a.text,
                         audio: a.audio, // بعض APIs توفر رابط الصوت مباشرة
