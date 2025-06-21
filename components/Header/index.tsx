@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { SidebarInset, SidebarTrigger } from '../ui/sidebar'
+import { SidebarTrigger } from '../ui/sidebar'
 import {
     Breadcrumb,
     BreadcrumbItem,

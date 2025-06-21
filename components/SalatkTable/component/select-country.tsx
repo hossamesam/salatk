@@ -3,8 +3,6 @@ import { Input } from '@/components/ui/input';
 import { useAppDispatch } from '@/hooks/hooks';
 import { choiceCityAndCountry, choiceCoords } from '@/redux/salatimes/CountrySelectorSlice';
 import { ICountrySelectAPI } from '@/types/CountrySelectAPI';
-import { SalatkAPIresponse } from '@/types/salatkAPI';
-import { InputHTMLAttributes } from 'react';
 import { DialogClose } from '@radix-ui/react-dialog';
 import axios from 'axios';
 import React, { useState, useMemo, useEffect } from 'react'

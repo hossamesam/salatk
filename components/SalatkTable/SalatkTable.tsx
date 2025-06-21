@@ -1,12 +1,11 @@
 "use client";
 import useSalatkAPIresponse from '@/hooks/use-SalatkAPIresponse';
-import React, { use, useEffect, useState } from 'react';
+import React, {  useEffect, useState } from 'react';
 import { Status } from '@/types/salatkAPI';
 import { Howl } from 'howler';
 import { FaClock, FaCheckCircle, FaTimesCircle, FaMinusCircle } from 'react-icons/fa';
 import { Clock } from '../clock/clock';
 import Locate from './component/Locate';
-import { choiceCityAndCountry } from '@/redux/salatimes/CountrySelectorSlice';
 import { useAppSelector } from '@/hooks/hooks';
 
 function SalatkTable() {

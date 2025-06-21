@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils'
 import React from "react";
 
 
-let pray = {
+const pray = {
     Fajr: "الفجر",
     Sunrise: "الشروق",
     Dhuhr: "الظهر",

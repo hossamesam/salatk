@@ -1,11 +1,8 @@
 
-import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog'
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog'
 import React from 'react'
-import { SlLocationPin } from 'react-icons/sl'
 import CountrySelector from './select-country'
-import { ImLocation2 } from "react-icons/im";
 import { FaMapLocation } from "react-icons/fa6";
-import { Button } from '@/components/ui/button';
 
 export default function Locate() {
     return (
